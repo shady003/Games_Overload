@@ -1,0 +1,70 @@
+body{
+
+    background-color:#EFFFFD ;
+}
+#main{
+    height: 250px;
+    width: auto;
+}
+#search {   /*background-color: antiquewhite;*/
+                position: absolute;
+                left: 42%;
+                top: 150px;
+                height: 100px;
+                width: 400px;
+                border-radius: 12%;
+                /* display: inline-block; */
+
+}
+#submit {           width: 100px;
+                    position: absolute;
+                    left: 145px;
+                    top: 65px;
+
+}
+#search_button{         height: 50px;
+                        width:400px;
+        border-radius: 12%;
+
+
+}
+#title{ color: black;
+    font-family: cursive;
+    background-color: #B8FFF9;
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    left: 45%;
+    display: inline-block;
+    border-radius: 10%;
+}
+#logo_cpp {
+    height:auto ;
+    position: absolute;
+    left: 30px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+#logo_htm{       position: absolute;
+           right: 30px;
+           height: auto;
+            width: 270px;
+            display: inline-block;
+
+
+}
+#second {   border-color: black;
+    border: double 3px;
+}
+.list_image{ margin-left: 20px;
+                margin-top:10px;
+    display: inline-block;
+    height: 300px;
+    width:200px;
+    
+}
+.list_image:hover{
+    border: double 8px;
+}
