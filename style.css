@@ -9,7 +9,7 @@ body{
 #search {   /*background-color: antiquewhite;*/
                 position: absolute;
                 left: 42%;
-                top: 150px;
+                top: 25%;
                 height: 100px;
                 width: 400px;
                 border-radius: 12%;
@@ -38,17 +38,18 @@ body{
     display: inline-block;
     border-radius: 10%;
 }
-#logo_cpp {
+#logo_cpp { margin-top: 10px;
     height:auto ;
     position: absolute;
-    left: 30px;
+    left: 2%;
     width: 200px;
     display: inline-block;
 
 }
 
-#logo_htm{       position: absolute;
-           right: 30px;
+#logo_htm{   margin-top: 20px;
+        position: absolute;
+           right: 2%;
            height: auto;
             width: 270px;
             display: inline-block;
@@ -67,4 +68,16 @@ body{
 }
 .list_image:hover{
     border: double 8px;
+}
+#notice {
+        height: px;
+        width: 35%;
+    background-color: B7CADB;
+}
+#querry{
+
+    display: block-inline;
+    position: absolute;
+    left: 33%;
+    top: 23%;
 }
